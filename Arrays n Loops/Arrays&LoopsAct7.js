@@ -1,6 +1,3 @@
-// not complete
-
-
 let bobsFollowers = ["Bob","Andy","Steve","Lyndsey"];
 let hannahsFollowers = ["Xara","Jane","Lyndsey","Megan"];
 
