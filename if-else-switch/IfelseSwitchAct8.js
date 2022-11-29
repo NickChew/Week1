@@ -11,10 +11,12 @@ strLen = string.length;
         for(j=0; j<6; j++)
         if (string[i] == vowels[j]) {
             console.log (`${vowels[j]} "Vowel found at" ${[i]}`);
-        else if (i=0){
-                console.log (`${item.vowels[j]} "last Vowel found"`);
-            }
-        }    
-    }
-console.log (`${item.vowels[j]} "last Vowel found"`);
+        }  
+    }                                                                   // need to pass i out of loop
+    console.log (`${[i]}`)
+    //console.log (`"string location" ${[i]} ${item.vowels[j]} "was last Vowel found"`);
+       
+        
+    
+//console.log (`"string location" ${i} ${item.vowels[j]} "was last Vowel found"`);
 
