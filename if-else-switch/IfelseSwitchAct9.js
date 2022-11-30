@@ -16,3 +16,14 @@ if (first == last) {                           //if two halves match
 else{
     console.log(`False`)
 }
+// different way
+// //activity 9
+// let word = "fdslkjlkfdsfsjdf";
+// let firstCharacter = word.charAt(0);
+// let lastCharacter = word.slice(-1);
+
+// if (firstCharacter === lastCharacter) {
+//     console.log("true")
+// } else {
+//     console.log("false")
+// }

@@ -15,3 +15,15 @@ if(num3 % 2 == 0) {
 else {
     console.log(`"The number is odd." ${num3} `);
 }
+
+//different way//
+// //activity 10
+// let num1 = 6;
+// let num2 = 7;
+// let sum = num1 + num2;
+
+// if (sum % 2 === 0) {
+//     console.log("even")
+// } else {
+//     console.log(sum) //this will print as the odd number 
+// }
