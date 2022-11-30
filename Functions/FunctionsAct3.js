@@ -1,5 +1,5 @@
-//Activity 3:
-//Cash machine time! JS
+//Activity 3:git add 
+//Cash machine time! 
 //Let’s create one that:
 //> Dispenses cash if your pin number is correct and your 
 //balance is equal to, or more than, the amount you’re 
