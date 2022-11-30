@@ -1,23 +1,13 @@
-let offer = "none";
-let time = 1200;
+// Activity 2:
+// Edit the below snippet to include two parameters and a
+// running order count updated when the function is called
 
-const cafe3 = {
-    name: "Whitesheep",
-    seatingCapacity: 100,
-    hasSpecialOffers: true,
-    drinks: ["Cappuccino","Latte","Filter coffee","Tea","Hot chocolate"],
-    breakfastOffer: "Free croissant with coffee",
-    lunchOffer: "Free drink with surprisingly priced sandwich",
-    noOffer: "Sorry no offer",
+let orderCount = 0;
 
-    openCafe(){              //function openCafe put in object cafe3
-        if (this.hasSpecialOffers){     // this. refers to a key within an object
-        return "Time for a Special offer";
-        }
-    },
-    closeCafe(){             //function closeCafe put in object cafe3
-        return "We are closed, come back tomorrow!";
-    }
-};
-console.log(cafe3.openCafe());
-//console.log(cafe3.closeCafe());
+const takeOrder = (topping) => {
+    console.log (`Pizza with ${topping}`);
+    orderCount++;
+}
+
+takeOrder("pineapple");
+
