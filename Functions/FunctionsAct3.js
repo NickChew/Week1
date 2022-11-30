@@ -16,20 +16,20 @@ function cashMachine (pin, withdrawal, balance) {
     }
 }
 */
-
-const cashMachine = (pin, withdrawal, balance) => {
+// arrow  function version
+const cashMachine = (pin, withdrawal, balance) => { //
     if (pin == "4321") {
         if (withdrawal <= balance) {
             console.log("You can have your money")
-        } else {                                    //-- could be written like {
-    console.log("No money for you today")           //else
-        }                                           //}
+        } else {                                    
+    console.log("No money for you today")           
+        }                                           
     }
 }
 
 
-cashMachine("4321", 127, 100)
+cashMachine("4321", 127, 100)       //pin , withdrawal, balance
 cashMachine("4321", 27, 100)
     
-// arrow  function version
+
 
